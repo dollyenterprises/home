@@ -1,0 +1,69 @@
+@media (min-width: 1400px)  {
+    /* body{
+        background: red;
+    } */
+    .card{
+        max-width: 17rem;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    /* body{
+        background: blue;
+    } */
+    .card{
+        max-width: 20.7rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    /* body{
+        background: black;
+    } */
+    .card{
+        max-width: 17rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    /* body{
+        background: yellow;
+    } */
+    #aboutus{
+        width: 20rem;
+    }
+    .spice-image {
+        width: 43rem;
+    }
+    .card{
+        max-width: 19rem;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+    /* body{
+        background: gold;
+    } */
+    .card{
+        max-width: 13.2rem;
+    }
+}
+@media screen and (max-width: 576px){
+    /* body{
+        background: lightblue;
+    } */
+    #aboutus{
+        width: 20rem;
+    }
+    .spice-image {
+        width: 20rem;
+    }
+}
+body{
+        background: lightblue;
+    }
+.whats-btn {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}
+.whats-btn a img{
+    height: 2rem;
+}
